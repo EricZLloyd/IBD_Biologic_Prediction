@@ -45,7 +45,7 @@ The machine learning model independently discovered that baseline epithelial bar
 
 ##  Repository Structure
 * `01_exploratory_analysis.ipynb` - The initial scratchpad notebook detailing data exploration and debugging.
-* `02_final_pipeline.ipynb` - The optimized 17-cell script.
+* `02_final_pipeline.ipynb` - The optimized script.
 * `infliximab_top_10_biomarkers.csv` - The top 10 calculated gene coefficients and names.
 * `infliximab_lasso_model.pkl` - The trained model.
 * `.gitignore` - Filters out the raw NCBI data matrices to keep the repository lightweight.
