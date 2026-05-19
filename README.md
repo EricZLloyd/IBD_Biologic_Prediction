@@ -13,7 +13,7 @@ A translational bioinformatics and machine learning pipeline designed to predict
 
 ## The Machine Learning Pipeline
 
-The project is condensed into a 17-cell pipeline structured across 7  phases:
+The project is condensed into a 14-cells, structured across 7  phases:
 
 1. **Data Ingestion & Automation:** Programmatically queries, downloads, and unpacks the raw zipped NCBI GEO series matrix files into local storage.
 2. **Clinical Target Engineering:** Parsed sample-specific metadata, isolated the 121 target IBD patients (61 Ulcerative Colitis, 60 Crohn’s Disease), eliminated healthy controls, and engineered a clean binary tracking target (`Yes` / `No` response).
