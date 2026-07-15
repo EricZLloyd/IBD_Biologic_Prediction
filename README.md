@@ -85,9 +85,9 @@ The single final fit produces a ranked coefficient list, and it is tempting to r
 
 Five folds make ~3,500 selections in total, and they union to 3,322 — **almost every selection is a first appearance.** The folds pick near-disjoint gene sets from the same 61 patients; change which ~12 patients are held out and the signature reshuffles. Coefficient magnitude and selection stability are close to decoupled, so the probe with the largest weight in one arbitrary fit is not the probe the model reliably wants.
 
-**Conclusion: this model does not have a "most predictive gene."** Not "we found a weak one" — at n=61 against 54,675 probes the selection is unstable enough that the question has no well-defined answer. Reporting any top-N list from this model would be reporting an artefact of one arbitrary split.
+**Conclusion: this model does not have a "most predictive gene."** At n=61 against 54,675 probes the selection is unstable enough that the question has no well-defined answer. Reporting any top-N list from this model would be reporting an artefact of one arbitrary split.
 
-This is also the mechanism underneath the transfer failure. A signature that cannot survive a fold reshuffle *within* its own cohort was never going to survive a different hospital, a different scanner, and a different response definition. Of the explanations offered below, this is the best-supported.
+This is also the mechanism underneath the transfer failure. A signature that cannot survive a fold reshuffle *within* its own cohort was not going to survive an external cohort. Of the explanations offered below, this is the best-supported.
 
 ---
 
