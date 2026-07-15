@@ -133,14 +133,6 @@ That finding came from a model trained on duplicated patients at `C = 1.0` (an u
 
 The selection-stability analysis explains *why* it was never safe: CLDN8 was rank-1 in one fit, and rank-1 in one fit is not a finding at this sample size.
 
-### 3. No top-10 biomarker list is published
-
-`infliximab_top_10_biomarkers.csv` has been **removed from this repository rather than regenerated.** Given a union of 3,322 probes across folds against an intersection of 4, any top-N list from this model is an artefact of one arbitrary split. The full coefficient table is exported instead, annotated with each probe's fold-selection count so the instability travels with the numbers.
-
-### 4. Unverified
-
-The previous claim that the cohort splits **61 Ulcerative Colitis / 60 Crohn's Disease** has not been re-checked post-filter and should be treated as unconfirmed — those figures are numerically identical to the before/after treatment split, which warrants a direct look at the `disease` column before being restated.
-
 ---
 
 ## What this project actually demonstrates
