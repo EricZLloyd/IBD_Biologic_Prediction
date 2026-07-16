@@ -151,9 +151,9 @@ The limiting factor is sample size: 61 training patients against 54,675 features
 
 ## Repository structure
 
-* `01_exploratory_analysis.ipynb` — initial exploration, debugging, experimental parsing for the discovery cohort.
+* `01_exploratory_analysis.ipynb` — superseded: initial exploration, debugging, experimental parsing for the discovery cohort.
 * `02_final_pipeline.ipynb` — the discovery pipeline: baseline filtering, nested CV, final model fit, selection-stability analysis.
-* `03_multi_cohort_evaluation_draft.ipynb` — scratchpad for longitudinal masking and string-engineering bugs on the second dataset.
+* `03_multi_cohort_evaluation_draft.ipynb` — superseded: scratchpad for longitudinal masking and string-engineering bugs on the second dataset.
 * `04_multi_cohort_validation_final.ipynb` — external validation, both scaling regimes, AUC and bootstrap CI.
 * `infliximab_coefficients.csv` — all 704 non-zero coefficients, sorted by absolute weight, with a `folds_selected` column (0–5) recording how many outer folds retained each probe.
 * `infliximab_lasso_model.pkl` — the serialised pipeline (scaler + classifier).
